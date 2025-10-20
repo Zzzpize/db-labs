@@ -210,7 +210,7 @@ from bookings.airports_data group by timezone order by northest desc;
 ```
 
 **Результат. Первые 10 строк**
-|timezone|north|
+|timezone|northest|
 |--------|-----|
 |Asia/Krasnoyarsk|69.31109619140625|
 |Europe/Moscow|68.78170013427734|
@@ -235,5 +235,6 @@ from bookings.flights where status = 'Delayed' and extract(month from scheduled_
 ```
 
 **Результат нулевой**
+
 
 
